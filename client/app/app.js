@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('demoApp', [
+angular.module('comixApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
@@ -47,6 +47,7 @@ angular.module('demoApp', [
     $rootScope.$on('$stateChangeStart', function (event, next) {
       Auth.isLoggedInAsync(function(loggedIn) {
         if (next.authenticate && !loggedIn) {
+          event.preventDefault();
           $location.path('/login');
         }
       });

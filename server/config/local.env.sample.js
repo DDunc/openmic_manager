@@ -7,7 +7,7 @@
 
 module.exports = {
   DOMAIN:           'http://localhost:9000',
-  SESSION_SECRET:   'demo-secret',
+  SESSION_SECRET:   'comix-secret',
 
   TWITTER_ID:       'app-id',
   TWITTER_SECRET:   'secret',

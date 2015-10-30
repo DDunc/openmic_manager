@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('demoApp')
+angular.module('comixApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
       'title': 'Home',

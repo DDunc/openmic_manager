@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('demoApp')
+angular.module('comixApp')
   .controller('LoginCtrl', function ($scope, Auth, $location, $window) {
     $scope.user = {};
     $scope.errors = {};

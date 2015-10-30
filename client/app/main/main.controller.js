@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('demoApp')
+angular.module('comixApp')
   .controller('MainCtrl', function ($scope, $http, socket) {
     $scope.awesomeThings = [];
 

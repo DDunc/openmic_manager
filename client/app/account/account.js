@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('demoApp')
+angular.module('comixApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('login', {

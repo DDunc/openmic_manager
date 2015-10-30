@@ -1,19 +1,25 @@
-# Fullstack demo generated using [Angular Fullstack][1] [![Code Climate](https://codeclimate.com/github/DaftMonk/fullstack-demo/badges/gpa.svg)](https://codeclimate.com/github/DaftMonk/fullstack-demo)
+Open Mic Manager
+==========
 
-[Angular Fullstack][1] is a MEAN generator. It scaffolds applications with MongoDB, Express, AngularJS, and Node.
+Open Mic Manager is a MEAN stack CRUD app designed to help open mic hosts organize
+their mic.
 
-By running `yo angular-fullstack` and using defaults, you get a project very similar to this. This repo is to give you an idea of what that project looks like.
+## Features
+* Regular users, Admin users, and an Admin Dashboard
+* Login through google or create a secure account with local oAuth
+* Create and reorder lists, save old lists, set lists as private or public
+* Socket.io support for instant updates to tell someone they're up next
 
-## Live Demo
+## Motivation
+Gaining experience using and modifying a yeoman generator and gaining experience with
+Grunt as well as Bower were the three main goals, Socket.io and auth were just bonuses.
 
-http://fullstack-demo.herokuapp.com/.
+## Installation
+Clone or fork, npm install, create a db folder, run mongod to the db path, run
+grunt, then grunt serve from the terminal for a dev build.
 
-## Quick Install
+## Tests
+Run grunt test from the terminal for Mocha REST tests.
 
-Easily create your own project as specified here: https://github.com/DaftMonk/generator-angular-fullstack#usage
-
-Then launch your express server in development mode using
-
-    $ grunt serve
-
-[1]: https://github.com/DaftMonk/generator-angular-fullstack
+## License
+Released in 2015 under the MIT License.
